@@ -1,0 +1,15 @@
+{
+  "name": "jsonserver_vue",
+  "version": "1.0.0",
+  "description": "test restful api",
+  "main": "index.js",
+  "scripts": {
+    "jsonstart": "json-server --watch db.json",
+    "json:server:remote":"json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
